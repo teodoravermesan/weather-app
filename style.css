@@ -1,11 +1,12 @@
 body {
-  background: #8c52ff;
+  background: #5261ff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   margin: 0;
+  overflow-y: hidden;
 }
 
 #weather-container {
@@ -36,7 +37,7 @@ input {
 }
 
 button {
-  background: #debff4;
+  background: #e4bff4;
   color: white;
   padding: 10px;
   border: none;
@@ -48,7 +49,7 @@ button {
 }
 
 button:hover {
-  background: #8b48d7;
+  background: #484dd7;
 }
 
 #temp-div p {
